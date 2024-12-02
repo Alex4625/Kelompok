@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Percobann pertama</h1>
+    <form action="">
+        <fieldset>
+            <legend>Login</legend>
+        <p>penambahan name dan id hanya untuk php dan javascript, untuk html bisa diabaikan</p>
+        <input type="text" name="" id="" placeholder="Masukkan username">
+        <input type="password" name="" id="" placeholder="Masukkan password">
+        <input type="submit" value="Sign in">
+        </fieldset>
+    </form>
+    <h1>Percobaan kedua checkbox</h1>
+    <form action="">
+        <fieldset>
+        <legend>Login</legend>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." />
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+        </p>
+        <p>radio hanya pilih satu, checkbox box bisa milih lebih dari satu</p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+        </fieldset>
+    </form>
+</form>
+<h1>Percobaan kedua radio</h1>
+<form action="">
+    <fieldset>
+    <legend>Login</legend>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." />
+        </p>
+        <p>
+            <label><input type="radio" name="remember" value="remember" /> Remember me</label>
+        </p>
+            <p>radio hanya pilih satu, checkbox box bisa milih lebih dari satu</p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+    </fieldset>
+</form>
+    <h2>Percobann ketiga</h2>
+<form action="">
+    <fieldset>
+    <legend>Contact</legend>
+        <table>
+            <tr>      
+                <td><label>Name</label></td>
+                <td>:</td>
+                <td><input type="text" name="name" placeholder="your name..." /></td>
+            </tr>
+            <tr>
+                <td><label>Subject</label></td>
+                <td>:</td>
+                <td><input type="text" name="subject" placeholder="subject..." /></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="email" placeholder="your email..." /></td>
+            </tr>
+        </table>
+        <p><input type="submit" name="submit" value="Send" /></p>
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+    <Legend>Registrasi</Legend>
+        <table>
+            <tr>
+                <td><label>Nama</label></td>
+                <td>:</td>
+                <td><input type="text" name="Nama" placeholder="Nama anda..." /></td>
+            </tr>
+            <tr>
+                <td><label>Tanggal Lahir</label></td>
+                <td>:</td>
+                <td><input type="date" value="tanggal lahir" /></td>
+            </tr>
+            <tr>
+                <td><label>Username</label></td>
+                <td>:</td>
+                <td><input type="text" name="Username" placeholder="Username anda..." /></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td>:</td>
+                <td><input type="email" name="Email" placeholder="Email anda..." /></td>
+            </tr>
+            <tr>
+                <td><label>Password</label></td>
+                <td>:</td>
+                <td><input type="password" name="Password" placeholder="Password anda..." /></td>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin</label></td>
+                <td>:</td>
+                <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label></td>
+                <td><label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></td>
+            </tr>
+            <tr>
+                <td><label>Agama</label></td>
+                <td>:</td>
+                <td><select name="agama">
+                    <option value="islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Konghucu">Konghucu</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>KTP</label></td>
+                <td>:</td>
+                <td><label><input type="file" name="KTP"/></label></td>
+            </tr>
+            <tr>
+                <td><label>Biografi</label></td>
+                <td>:</td>
+                <td><textarea name="biografi"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Daftar" /></td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
